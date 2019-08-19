@@ -1,0 +1,43 @@
+<resources>
+    <!-- list & detail -->
+    <dimen name="logo_side_margin">16dp</dimen>
+    <dimen name="logo_bottom_margin">2dp</dimen>
+
+    <!-- list -->
+    <dimen name="list_app_bar_height">112dp</dimen>
+    <dimen name="list_side_margin">4dp</dimen>
+
+    <dimen name="card_title_font_size">21sp</dimen>
+    <dimen name="card_subtitle_font_size">17sp</dimen>
+
+    <dimen name="card_title_top_padding">8dp</dimen>
+    <dimen name="card_title_bottom_padding">4dp</dimen>
+    <dimen name="card_subtitle_bottom_padding">16dp</dimen>
+    <dimen name="card_text_horizontal_padding">16dp</dimen>
+
+    <integer name="list_column_count">2</integer>
+
+    <!-- detail -->
+    <bool name="detail_is_card">false</bool>
+    <dimen name="detail_photo_height">272dp</dimen>
+
+    <dimen name="detail_card_max_width">10000dp</dimen> <!-- force match_parent -->
+
+    <dimen name="detail_metabar_vert_padding">16dp</dimen>
+    <dimen name="detail_inner_horiz_margin">16dp</dimen>
+
+    <dimen name="detail_title_bottom_padding">4dp</dimen>
+    <dimen name="detail_title_text_size">32sp</dimen>
+
+    <dimen name="detail_body_bottom_margin">88dp</dimen>
+    <dimen name="detail_body_text_size">16sp</dimen>
+
+    <item name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_pressed_translation_z">12dp</dimen>
+
+    <dimen name="up_button_width">56dp</dimen>
+</resources>

@@ -1,0 +1,74 @@
+<com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/draw_insets_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_photo_height"
+            app:elevation="4dp">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                style="@style/StyleCollapsingToolbarLayout">
+
+                <FrameLayout
+                    android:id="@+id/photo_container"
+                    style="@style/StylePhotoContainer">
+
+                    <ImageView
+                        android:id="@+id/photo"
+                        style="@style/StylePhoto"/>
+
+                    <View
+                        android:id="@+id/scrim_gradient"
+                        style="@style/StylePhotoScrimGradient"/>
+
+                </FrameLayout>
+
+                <android.support.v7.widget.Toolbar
+                    style="@style/StyleToolbar"/>
+
+                <ImageView
+                    android:id="@+id/logo"
+                    style="@style/StyleLogo"
+                    android:layout_gravity="bottom|end"/>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            style="@style/StyleScrollAndSwipeRefreshLayout">
+
+            <com.example.xyzreader.ui.MaxWidthLinearLayout
+                style="@style/StyleMaxWidthLinearLayout">
+
+                <LinearLayout
+                    android:id="@+id/meta_bar"
+                    style="@style/StyleMetaBar">
+
+                    <TextView
+                        android:id="@+id/article_title"
+                        style="@style/StyleArticleTitle"/>
+
+                    <TextView
+                        android:id="@+id/article_byline"
+                        style="@style/StyleArticleByline"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/article_body"
+                    style="@style/StyleArticleBody"/>
+
+            </com.example.xyzreader.ui.MaxWidthLinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</com.example.xyzreader.ui.DrawInsetsFrameLayout>
