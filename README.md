@@ -39,6 +39,5 @@ The project was an opportunity to improve an app’s design, a vital skill for bui
 **After:**
 
 <p align="center">
-<img src="XYZReader_screenshot_1.png" width="400"> &nbsp;&nbsp; <img src="BakingApp_screenshot_2.png" width="400">
-<img src="XYZReader_screenshot_2.png" width="400">
+<img src="XYZReader_screenshot_1.png" width="400"> &nbsp;&nbsp; <img src="XYZReader_screenshot_2.png" width="400">
 </p>
